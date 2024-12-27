@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/png/jpg" href="img/cv.jpg">
+    <meta charset="UTF-8">
+    <meta http-aquiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV. Anugrah Jaya - Kontak</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            overflow-y: scroll; 
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .fContainer {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        .contact-info {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info h2 {
+            margin-top: 0;
+        }
+
+        .contact-info p {
+            margin-bottom: 10px;
+        }
+
+        .contact-form {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-form h2 {
+            margin-top: 0;
+        }
+
+        .contact-form label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form input[type="email"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form textarea {
+            height: 150px;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="fContainer">
+            <h1>POrtal CV. Anugrah Jaya</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="koleksi.html">Koleksi</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                    <li class="active"><a href="kontak.html">Kontak</a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="fContainer">
+        <div class="contact-info">
+            <h2>Informasi Kontak CV. Anugrah Jaya</h2>
+            <p>Nomor Telepon: +62 8123651698</p>
+            <p>Alamat: Jln. Renganis Raya. Jerneng indok.trong tawah</p>
+        </div>
+        <div class="contact-form">
+            <h2>Hubungi Kami</h2>
+            <form action="#" method="post">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subjek:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="submit" value="Kirim Pesan">
+            </form>
+        </div>
+    </div>
+   
+</body>
+</html>
